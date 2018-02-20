@@ -7,82 +7,136 @@
     <link rel="icon" href="./res/img/favicon.ico" type="image/x-icon">
     <link href="./res/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./res/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="./res/css/style.css" type="text/css" rel="stylesheet">
     <link href="./res/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="./res/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
 
-    <main class="container row">
+    <!-- Header + menu -->
+    <header>
+      <div class="logo">
+        <div class="logo-img">
+          <img src="./res/img/logo.png">
+        </div>
 
-      <!-- Header + menu -->
-      <header class="container row">
-        <div class="container row col-lg-3">
-          <div class="col-lg-3">
-            <img src="./res/img/logo.png">
+        <div class="logo-header">
+          <h1>Two Sandals Soups and Salads</h1>
+        </div>
+      </div>
+
+      <div class="top-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container-fluid row">
+
+      <!--Main menu -->
+      <div id="main-menu" class="col-lg-12 container-fluid row">
+        <h2>Menu</h2>
+        <div class="col-lg-12 container-fluid row">
+          <div id="m-soups" class="item-block col-lg-4">
+            <img src="./res/img/background-soup.jpg">
+            <h3><a href="#soups">Soups</a></h3>
           </div>
-
-          <div class="col-lg-6">
-            <h1>Two Sandals Soups and Salads</h1>
+          <div id="m-salads" class="item-block col-lg-4">
+            <img src="./res/img/background-salad.jpg">
+            <h3><a href="#salads">Salads</a></h3>
           </div>
+          <div id="m-desserts" class="item-block col-lg-4">
+            <img src="./res/img/background-desert.jpg">
+            <h3><a href="#desserts">Desserts</a></h3>
+          </div>
+        </div>
+      </div>
 
+      <div id="soups" class="container-fluid row">
+        <h2 class="h2-5rem">Soups</h2>
 
+        <div id="tomato-soup" class="description-left">
+          <div class="description">
+            <h1 class="description-text">Tomato</h1>
+            <h2 class="description-text">Classic creamy tomato soup</h2>
+            <h3 class="description-text description-fs-4">$4</h3>
+          </div>
         </div>
 
-        <div class="col-lg-3">
-           <!--Voider block-->
+        <div id="chicken-noodl-soup" class="description-right">
+          <div class="description">
+            <h1 class="description-text">Chicken Noodle</h1>
+            <h2 class="description-text">Chunky chicken noodle with carrots and celery</h2>
+            <h3 class="description-text description-fs-4">$4.50</h3>
+          </div>
         </div>
 
+        <div id="buffalo-chicken-soup" class="description-left">
+          <div class="description">
+            <h1 class="description-text">Buffalo Chicken</h1>
+            <h2 class="description-text">Shredded chicken in a thick cheesy buffalo sauce</h2>
+            <h3 class="description-text description-fs-4">$5</h3>
+          </div>
+        </div>
+      </div>
 
-        <div class="col-lg-3">
-          <ul>
-            <li><a href=./home.html>Home</a></li>
-            <li><a href=./index.html>Menu</a></li>
-          </ul>
+      <div id="salads" class="container-fluid row">
+        <h2 class="h2-5rem">Salads</h2>
+
+        <div id="salad-caesar" class="description-right">
+          <div class="description">
+            <h1 class="description-text">The Caesar</h1>
+            <h2 class="description-text">The classic with a light sprinkle of parmesan cheese</h2>
+            <h3 class="description-text description-fs-4">$6</h3>
+          </div>
         </div>
 
-      </header>
+        <div id="salad-california" class="description-left">
+          <div class="description">
+            <h1 class="description-text">The California</h1>
+            <h2 class="description-text">Romaine lettuce with avocado and cheddar cheese</h2>
+            <h3 class="description-text description-fs-4">$7</h3>
+          </div>
+        </div>
 
+        <div id="salad-lime-thai" class="description-right">
+          <div class="description">
+            <h1 class="description-text">Key Lime Thai</h1>
+            <h2 class="description-text">Iceberg lettuce with a light lime vinaigrette and onion crisps</h2>
+            <h3 class="description-text description-fs-4">$8</h3>
+          </div>
+        </div>
+      </div>
 
+      <div id="desserts" class="container-fluid row">
+        <h2 class="h2-5rem">Desserts</h2>
 
+        <div id="dessert-chocolate-chip-cookie" class="description-left">
+          <div class="description">
+            <h1 class="description-text">Chocolate Chip Cookie</h1>
+            <h2 class="description-text">Enough said</h2>
+            <h3 class="description-text description-fs-4">$2</h3>
+          </div>
+        </div>
 
+        <div id="dessert-brownie-sundae" class="description-right">
+          <div class="description">
+            <h1 class="description-text">Brownie Sundae</h1>
+            <h2 class="description-text">Vanilla ice cream with chocolate sauce, nuts and a cherry on top</h2>
+            <h3 class="description-text description-fs-4">$6</h3>
+          </div>
+        </div>
 
-
-      <h2>Menu</h2>
-      <ul>
-        <li><a href="#soups">Soups</a></li>
-        <li><a href="#salads">Salads</a></li>
-        <li><a href="#desserts">Desserts</a></li>
-      </ul>
-
-      <div id="soups">
-        <h3>Soups</h3>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/freelance1-img_tomato-soup.jpg" /> <br />
-        <ol>
-          <li><strong>Tomato</strong> Classic creamy tomato soup $4</li>
-          <li><strong>Chicken Noodle</strong> Chunky chicken noodle with carrots and celery <em>$4.50</em></li>
-          <li><strong>Buffalo Chicken</strong> Shredded chicken in a thick cheesy buffalo sauce <em>$5</em></li>
-        </ol>
-
-      <div id="salads">
-        <h3>Salads</h3>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/freelance1-img_caesar-salad.jpg" /> <br />
-        <ol>
-            <li><strong>The Caesar</strong> The classic with a light sprinkle of parmesan cheese <em>$6</em></li>
-            <li><strong>The California</strong> Romaine lettuce with avocado and cheddar cheese, with a light vinaigrette <em>$7</em></li>
-            <li><strong>Key Lime Thai</strong> Iceberg lettuce with a light lime vinaigrette and onion crisps <em>$8</em></li>
-        </ol>
-
-      <div id="desserts">
-        <h3>Desserts</h3>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/freelance1-img_chocchip-cookie.jpg" /> <br />
-        <ol>
-          <li><strong>Chocolate Chip Cookie</strong> Enough said <em>$2</em></li>
-          <li><strong>Brownie Sundae</strong> Vanilla ice cream with chocolate sauce, nuts and a cherry on top <em>$6</em></li>
-        </ol>
+        <div id="dessert-tiramisu" class="description-left">
+          <div class="description">
+            <h1 class="description-text">Tiramisu</h1>
+            <h2 class="description-text">Refreshing Italian dessert</h2>
+            <h3 class="description-text description-fs-4">$7</h3>
+          </div>
+        </div>
+      </div>
     </main>
-
-
-
 
     <!-- Подключает bootstrap и jQuery (jQuery должен стоять перед bootstrap) -->
     <script src="./res/js/jquery-3.3.1.min.js"></script>
