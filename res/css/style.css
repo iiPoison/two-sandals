@@ -55,14 +55,14 @@ body {
   display: flex;
   justify-content: flex-end;
   height: 31.25rem;
-  width: 100%
+  width: 100%;
 }
 
 .description-left {
   display: flex;
   justify-content: flex-start;
   height: 31.25rem;
-  width: 100%
+  width: 100%;
 }
 
 .description-fs-4 {
@@ -84,6 +84,11 @@ body {
 
 .margin-top-2 {
   margin-top: 2rem;
+}
+
+.border-tb {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -207,11 +212,17 @@ header {
   border-bottom: 1px solid maroon;
 }
 
-/* block Soups */
-#soups {
+#soups, #salads, #desserts {
   width: 100%;
 }
 
+#soups h2, #salads h2,#desserts h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 5rem 0;
+}
+
+/* block Soups */
 #tomato-soup {
   background-image: url("../img/soup-tomato.jpg");
 }
@@ -222,18 +233,7 @@ header {
   background-image: url("../img/soup-buffalo-chicken.jpg");
 }
 
-#soups h2 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 5rem 0;
-
-}
-
 /* block Salads */
-#salads {
-  width: 100%;
-}
-
 #salad-caesar {
   background-image: url("../img/salad-caesar.jpg");
 }
@@ -244,17 +244,7 @@ header {
   background-image: url("../img/salad-lime-thai.jpg");
 }
 
-#salads h2{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 5rem 0;
-}
-
 /* block Desserts */
-#desserts {
-  width: 100%;
-}
-
 #dessert-chocolate-chip-cookie {
   background-image: url("../img/desert-chocolate-chip-cookie.jpg");
 }
@@ -263,10 +253,4 @@ header {
 }
 #dessert-tiramisu {
   background-image: url("../img/desert-tiramisu.jpg");
-}
-
-#desserts h2{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 5rem 0;
 }
