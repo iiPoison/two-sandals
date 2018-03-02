@@ -225,32 +225,50 @@ header {
 /* block Soups */
 #tomato-soup {
   background-image: url("../img/soup-tomato.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #chicken-noodl-soup {
   background-image: url("../img/soup-chicken-noodle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #buffalo-chicken-soup {
   background-image: url("../img/soup-buffalo-chicken.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* block Salads */
 #salad-caesar {
   background-image: url("../img/salad-caesar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #salad-california {
   background-image: url("../img/salad-california.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #salad-lime-thai {
   background-image: url("../img/salad-lime-thai.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* block Desserts */
 #dessert-chocolate-chip-cookie {
   background-image: url("../img/desert-chocolate-chip-cookie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #dessert-brownie-sundae {
   background-image: url("../img/desert-brownie-sundae.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #dessert-tiramisu {
   background-image: url("../img/desert-tiramisu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
